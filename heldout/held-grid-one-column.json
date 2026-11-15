@@ -1,0 +1,13 @@
+{
+  "name": "held-grid-one-column",
+  "kind": "grid",
+  "width": 150,
+  "gap": 20,
+  "padding": 5,
+  "items": [
+    {"id":"a","w":10,"h":10},
+    {"id":"b","w":10,"h":25},
+    {"id":"c","w":10,"h":5}
+  ],
+  "columns": 1
+}

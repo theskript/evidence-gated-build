@@ -1,0 +1,12 @@
+{
+  "name": "held-grid-wide",
+  "kind": "grid",
+  "width": 300,
+  "gap": 10,
+  "padding": 10,
+  "items": [
+    {"id":"a","w":40,"h":30},
+    {"id":"b","w":40,"h":45}
+  ],
+  "columns": 5
+}

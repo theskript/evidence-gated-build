@@ -1,0 +1,17 @@
+{
+  "name": "evidence-gated-build",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "Ahmed Rahim",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "corpus": "node src/check-corpus.mjs",
+    "canary": "node src/canary.mjs",
+    "heldout": "node scripts/heldout.mjs"
+  }
+}

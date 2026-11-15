@@ -1,0 +1,12 @@
+{
+  "name": "held-row-zero-gap",
+  "kind": "row",
+  "width": 90,
+  "gap": 0,
+  "padding": 3,
+  "items": [
+    {"id":"a","w":30,"h":7},
+    {"id":"b","w":30,"h":11},
+    {"id":"c","w":30,"h":3}
+  ]
+}

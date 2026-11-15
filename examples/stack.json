@@ -1,0 +1,12 @@
+{
+  "name": "example-stack",
+  "kind": "stack",
+  "width": 320,
+  "gap": 12,
+  "padding": 16,
+  "items": [
+    {"id":"title","w":288,"h":48},
+    {"id":"image","w":288,"h":160},
+    {"id":"caption","w":288,"h":24}
+  ]
+}

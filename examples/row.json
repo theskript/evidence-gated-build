@@ -1,0 +1,12 @@
+{
+  "name": "example-row",
+  "kind": "row",
+  "width": 400,
+  "gap": 8,
+  "padding": 8,
+  "items": [
+    {"id":"left","w":120,"h":60},
+    {"id":"middle","w":150,"h":90},
+    {"id":"right","w":90,"h":40}
+  ]
+}

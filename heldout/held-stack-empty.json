@@ -1,0 +1,8 @@
+{
+  "name": "held-stack-empty",
+  "kind": "stack",
+  "width": 200,
+  "gap": 9,
+  "padding": 15,
+  "items": []
+}

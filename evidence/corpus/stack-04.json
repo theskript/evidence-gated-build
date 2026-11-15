@@ -1,0 +1,20 @@
+{
+  "spec": {
+    "name": "stack-04",
+    "kind": "stack",
+    "width": 320,
+    "gap": 16,
+    "padding": 24,
+    "items": [
+      {"id":"one","w":200,"h":90},
+      {"id":"two","w":150,"h":45}
+    ]
+  },
+  "expected": {
+    "boxes": [
+      {"id":"one","x":24,"y":24,"w":200,"h":90},
+      {"id":"two","x":24,"y":130,"w":150,"h":45}
+    ],
+    "height": 199
+  }
+}

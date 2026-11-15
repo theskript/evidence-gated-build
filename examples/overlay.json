@@ -1,0 +1,11 @@
+{
+  "name": "example-overlay",
+  "kind": "overlay",
+  "width": 280,
+  "gap": 0,
+  "padding": 8,
+  "items": [
+    {"id":"photo","w":264,"h":180},
+    {"id":"label","w":80,"h":24}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "held-stack-single",
+  "kind": "stack",
+  "width": 100,
+  "gap": 0,
+  "padding": 0,
+  "items": [
+    {"id":"only","w":100,"h":100}
+  ]
+}
