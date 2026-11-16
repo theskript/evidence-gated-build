@@ -78,7 +78,7 @@ Exit codes: `cli build` returns 0 ok, 2 verification failed, 3 refused. `verify`
 npm test
 ```
 
-This runs `node --test test/` with `node:test` and `node:assert/strict`. `test/ingest.test.mjs` covers the ingest stage: layout ignoring ink, kind inference, refusal propagation, text match and mismatch, drift from the design, malformed exports and the plan edit round trip.
+This runs `node --test test/` with `node:test` and `node:assert/strict` over four files (28 tests): `test/canary.test.mjs` (the canary and `--refresh`), `test/corpus.test.mjs` (the corpus check, refusal with no override and the evidence rule), `test/verify.test.mjs` (numeric verification and drift) and `test/ingest.test.mjs`, which covers the ingest stage: layout ignoring ink, kind inference, refusal propagation, text match and mismatch, drift from the design, malformed exports and the plan edit round trip.
 
 ## Results
 
