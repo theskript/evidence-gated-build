@@ -1,0 +1,17 @@
+{
+  "name": "design-bad",
+  "artboard": { "w": 320, "h": 120 },
+  "nodes": [
+    {
+      "id": "headline",
+      "type": "text",
+      "box": { "x": 16, "y": 16, "w": 288, "h": 32 }
+    },
+    {
+      "id": "body",
+      "type": "text",
+      "box": { "x": 16, "y": 60, "w": 288, "h": 44 },
+      "text": "This export is refused because the headline node has no text."
+    }
+  ]
+}

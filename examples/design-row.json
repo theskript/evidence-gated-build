@@ -1,0 +1,23 @@
+{
+  "name": "design-row",
+  "artboard": { "w": 320, "h": 88 },
+  "nodes": [
+    {
+      "id": "save",
+      "type": "text",
+      "box": { "x": 16, "y": 16, "w": 80, "h": 48 },
+      "text": "Save"
+    },
+    {
+      "id": "share",
+      "type": "text",
+      "box": { "x": 104, "y": 16, "w": 120, "h": 56 },
+      "text": "Share with a friend"
+    },
+    {
+      "id": "badge",
+      "type": "rect",
+      "box": { "x": 232, "y": 16, "w": 72, "h": 40 }
+    }
+  ]
+}

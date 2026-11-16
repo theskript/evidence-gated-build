@@ -23,8 +23,8 @@ export function parseHtml(html) {
 
 const drift = (a, b) => (Number.isFinite(a) ? Math.abs(a - b) : Infinity);
 
-export function verify(html, spec, { tolerance = 0 } = {}) {
-  const expected = render(spec);
+// `expected` ({ boxes, height }) replaces the reference geometry, e.g. with boxes taken from a design.
+export function verify(html, spec, { tolerance = 0, expected = render(spec) } = {}) {
   const { container, boxes } = parseHtml(html);
   const problems = [];
 
