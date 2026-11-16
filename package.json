@@ -9,7 +9,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "test": "node --test test/",
+    "test": "node --test test/*.test.mjs",
     "corpus": "node src/check-corpus.mjs",
     "canary": "node src/canary.mjs",
     "heldout": "node scripts/heldout.mjs"
